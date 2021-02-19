@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fitbitplayertest-dev-153115-authRole",
+      "UnauthRoleArn": "arn:aws:iam::813149552515:role/amplify-fitbitplayertest-dev-153115-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::813149552515:role/amplify-fitbitplayertest-dev-153115-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-fitbitplayertest-dev-153115-deployment",
+      "UnauthRoleName": "amplify-fitbitplayertest-dev-153115-unauthRole",
+      "StackName": "amplify-fitbitplayertest-dev-153115",
+      "StackId": "arn:aws:cloudformation:us-west-2:813149552515:stack/amplify-fitbitplayertest-dev-153115/020df720-7189-11eb-b7eb-02cff3de376d",
+      "AmplifyAppId": "dklhkyd0eqld7"
+    },
+    "categories": {
+      "auth": {
+        "fitbitplayertest32587939": {
+          "userPoolId": "us-west-2_jgbz8dLIJ",
+          "userPoolName": "FitbitPlayerTest-test-CloudGemPlayerAccount-1HR8CGNCSP43PlayerAccess",
+          "webClientId": "gcq498lc9ebcbg091nbb6s5nk",
+          "nativeClientId": "45egtvbqg56sv6n6921ifeue25"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "fitbitplayertest32587939": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": true
+    }
+  }
+}
