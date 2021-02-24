@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 import { AuthState, onAuthUIStateChange, } from "@aws-amplify/ui-components"
-import {AmplifyAuthenticator, AmplifySignUp, AmplifySignOut, AmplifyGreetings} from '@aws-amplify/ui-react';
+import {AmplifyAuthenticator, AmplifySignUp, AmplifySignOut} from '@aws-amplify/ui-react';
 import { Auth } from "aws-amplify";
 
 
@@ -24,10 +24,27 @@ const App = () => {
 
     return authState === AuthState.SignedIn && user ? (
             <div className="App">
-                <AmplifyGreetings username={user.username} />
+                <div>Hello, {user.username}</div>
+                <AmplifySignOut />
             </div>
         ) : ( <AmplifyAuthenticator />)
-}
+    
+    // return(
+    //     <div>
+    //     authState === AuthState.SignedIn && user ? (
+    //         <div className="App">
+    //             <div>Hello, {user.username}</div>
+    //             <AmplifySignOut />
+    //         </div>
+    //     ) : (
+    //         <AmplifyAuthenticator />
+    //     )
+       
+    //     </div>
+      
+    // )
+    
+  }
 
 
 export default App;
